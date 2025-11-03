@@ -6,6 +6,8 @@ import NavBar from "./components/common/NavBar";
 import Register from "./pages/Register";
 import ProjectsPage from "./pages/Projects";
 import ProjectDetails from "./pages/ProjectDetails";
+import ContactPage from "./pages/Contact";
+import Footer from "./components/common/Footer";
 
 function App() {
   return (
@@ -15,9 +17,11 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<ProjectsPage />} />
         <Route path="/projects/:id" element={<ProjectDetails />} />
+        <Route path="/contact" element={<ContactPage />} />
         <Route path="register" element={<Register />} />
         <Route path="login" element={<Login />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

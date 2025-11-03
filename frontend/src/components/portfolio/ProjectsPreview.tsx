@@ -5,24 +5,27 @@ import sampleImg from "@/assets/profile-pic.avif";
 const sampleProjects = [
   {
     title: "Task Manager API",
-    description: "High-performance .NET API with JWT auth, background jobs and PostgreSQL.",
+    description:
+      "High-performance .NET API with JWT auth, background jobs and PostgreSQL.",
     tech: [".NET", "PostgreSQL", "Docker"],
     image: sampleImg,
-    href: "#",
+    href: "/projects/task-manager",
   },
   {
     title: "Portfolio Website",
-    description: "Personal portfolio built with React, Vite and Tailwind — fast and accessible.",
+    description:
+      "Personal portfolio built with React, Vite and Tailwind — fast and accessible.",
     tech: ["React", "Vite", "Tailwind"],
     image: sampleImg,
-    href: "#",
+    href: "/projects/portfolio",
   },
   {
     title: "Realtime Chat",
-    description: "Lightweight realtime chat using WebSockets and a small .NET SignalR service.",
+    description:
+      "Lightweight realtime chat using WebSockets and a small .NET SignalR service.",
     tech: ["SignalR", "WebSockets", "Redis"],
     image: sampleImg,
-    href: "#",
+    href: "/projects/realtime-chat",
   },
 ];
 

@@ -1,5 +1,3 @@
-import sampleImg from "@/assets/profile-pic.avif";
-
 export const projects = [
   {
     id: "task-manager",
@@ -7,7 +5,7 @@ export const projects = [
     description:
       "High-performance .NET API with JWT auth, background jobs and PostgreSQL.",
     tech: [".NET", "PostgreSQL", "Docker"],
-    image: sampleImg,
+    image: "/src/assets/projects/placeholder-1.svg",
     link: "/projects/task-manager",
   },
   {
@@ -16,7 +14,7 @@ export const projects = [
     description:
       "Personal portfolio built with React, Vite and Tailwind — fast and accessible.",
     tech: ["React", "Vite", "Tailwind"],
-    image: sampleImg,
+    image: "/src/assets/projects/placeholder-2.svg",
     link: "/projects/portfolio",
   },
   {
@@ -25,7 +23,7 @@ export const projects = [
     description:
       "Lightweight realtime chat using WebSockets and a small .NET SignalR service.",
     tech: ["SignalR", "WebSockets", "Redis"],
-    image: sampleImg,
+    image: "/src/assets/projects/placeholder-3.svg",
     link: "/projects/realtime-chat",
   },
 ];
