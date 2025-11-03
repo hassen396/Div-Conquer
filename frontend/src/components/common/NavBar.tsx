@@ -4,7 +4,7 @@ import { Menu, X, SunMoon, Home } from "lucide-react";
 import profilePic from "@/assets/profile-pic.avif";
 
 const links = [
-  { title: "Home", to: "/" },
+  //   { title: "Home", to: "/" },
   { title: "Projects", to: "/projects" },
   { title: "Blog", to: "/blog" },
   { title: "About", to: "/about" },
@@ -38,7 +38,7 @@ const NavBar: React.FC = () => {
   }, [location.pathname]);
 
   return (
-    <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-sm dark:bg-gray-900/80 border-b border-gray-200 dark:border-gray-800">
+    <header className="sticky top-0 z-50 bg-white/28 backdrop-blur-sm dark:bg-gray-900/28 border-b border-gray-200 dark:border-gray-800">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* logo */}
